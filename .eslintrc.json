@@ -1,0 +1,35 @@
+{
+    "env": {
+        "es6": true,
+        "node": true,
+        "mocha": false
+    },
+    "extends": "eslint:recommended",
+    "overrides": [
+      {
+        "env": {
+            "mocha": true
+        },
+        "files": [ "test/*.js"]
+      }
+    ],
+    "rules": {
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console": 0
+    }
+}
